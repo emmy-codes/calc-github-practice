@@ -4,11 +4,12 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: lightblue;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #6ddc45 0%, #1a4f12 100%) no-repeat;
 }
 
 .calculator {
-  background-color: darkgray;
+  background-image: url("https://images.pexels.com/photos/1632790/pexels-photo-1632790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   width: 130px;
   padding: 30px;
   border-radius: 20px;
@@ -28,6 +29,14 @@ input {
 
 h1 {
   line-height: 40%;
+
+}
+
+.title {
+  color: rgb(18, 112, 57);
+  font-weight: 900;
+  text-decoration: none;
+  font-size: larger;
 }
 
 .screen {
